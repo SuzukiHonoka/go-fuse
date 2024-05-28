@@ -11,7 +11,7 @@ import (
 	"syscall"
 	"unsafe"
 
-	"github.com/hanwen/go-fuse/v2/fuse"
+	"github.com/SuzukiHonoka/go-fuse/v2/fuse"
 	"golang.org/x/sys/unix"
 )
 

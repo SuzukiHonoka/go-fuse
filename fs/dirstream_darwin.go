@@ -9,7 +9,7 @@ import (
 	"os"
 	"syscall"
 
-	"github.com/hanwen/go-fuse/v2/fuse"
+	"github.com/SuzukiHonoka/go-fuse/v2/fuse"
 )
 
 // Like syscall.Dirent, but without the [256]byte name.

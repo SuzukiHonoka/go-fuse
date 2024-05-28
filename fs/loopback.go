@@ -10,8 +10,8 @@ import (
 	"path/filepath"
 	"syscall"
 
-	"github.com/hanwen/go-fuse/v2/fuse"
-	"github.com/hanwen/go-fuse/v2/internal/renameat"
+	"github.com/SuzukiHonoka/go-fuse/v2/fuse"
+	"github.com/SuzukiHonoka/go-fuse/v2/internal/renameat"
 	"golang.org/x/sys/unix"
 )
 

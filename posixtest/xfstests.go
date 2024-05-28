@@ -16,7 +16,7 @@ type dirent struct {
 }
 
 // DirSeek tests that seeking on a directory works for
-// https://github.com/hanwen/go-fuse/issues/344 .
+// https://github.com/SuzukiHonoka/go-fuse/issues/344 .
 //
 // Go port of xfstests generic/257.
 //

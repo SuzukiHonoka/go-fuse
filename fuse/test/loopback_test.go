@@ -18,11 +18,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hanwen/go-fuse/v2/fuse"
-	"github.com/hanwen/go-fuse/v2/fuse/nodefs"
-	"github.com/hanwen/go-fuse/v2/fuse/pathfs"
-	"github.com/hanwen/go-fuse/v2/internal/testutil"
-	"github.com/hanwen/go-fuse/v2/posixtest"
+	"github.com/SuzukiHonoka/go-fuse/v2/fuse"
+	"github.com/SuzukiHonoka/go-fuse/v2/fuse/nodefs"
+	"github.com/SuzukiHonoka/go-fuse/v2/fuse/pathfs"
+	"github.com/SuzukiHonoka/go-fuse/v2/internal/testutil"
+	"github.com/SuzukiHonoka/go-fuse/v2/posixtest"
 )
 
 type testCase struct {
@@ -477,7 +477,7 @@ func TestMknod(t *testing.T) {
 }
 
 // Test that READDIR works even if the directory is renamed after the OPENDIR.
-// This checks that the fix for https://github.com/hanwen/go-fuse/issues/252
+// This checks that the fix for https://github.com/SuzukiHonoka/go-fuse/issues/252
 // does not break this case.
 func TestReaddirRename(t *testing.T) {
 	tc := NewTestCase(t)
